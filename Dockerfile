@@ -73,6 +73,6 @@ LABEL links='{\
 LABEL requirements="core >= 1.1"
 
 #CMD run -t -i --device=/dev/ttyS0
-CMD ["python", "/app/main.py --Surf_host $SURF_HOST --Surf_port $SURF_PORT --VehicleSys $VEHICLE_SYS --VehicleComp $VEHICLE_COMP --Sub_host $SUB_HOST --Sub_port $SUB_PORT --UartPort $UART_PORT --UartBaud $UART_Baud "]
+CMD ["python", "app/main.py --Surf_host $SURF_HOST --Surf_port $SURF_PORT --VehicleSys $VEHICLE_SYS --VehicleComp $VEHICLE_COMP --Sub_host $SUB_HOST --Sub_port $SUB_PORT --UartPort $UART_PORT --UartBaud $UART_Baud "]
 #ENTRYPOINT cd /app && python main.py --Surf_host $SURF_HOST --Surf_port $SURF_PORT --VehicleSys $VEHICLE_SYS --VehicleComp $VEHICLE_COMP --Sub_host $SUB_HOST --Sub_port $SUB_PORT --UartPort $UART_PORT --UartBaud $UART_Baud
 #--ugps_host $UGPS_HOST --send_rate $SEND_RATE
