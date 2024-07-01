@@ -35,18 +35,18 @@ LABEL permissions='\
 		"SURF_HOST=localhost",\
 		"SURF_PORT=14560",\
 		"VEHICLE_SYS=1",\
-		"VEHICLE_COMP=1"\
-		"SUB_HOST=192.168.10.140"\
-		"SUB_PORT=14562"\
-		"UART_PORT=/dev/ttyS0"\
-		"UART_Baud=115200"\
+		"VEHICLE_COMP=1",\
+		"SUB_HOST=192.168.10.140",\
+		"SUB_PORT=14562",\
+		"UART_PORT=/dev/ttyS0",\
+		"UART_Baud=115200",\
 	],\
   	"HostConfig": {\
 		"Privileged": true,\
 		"Binds":[\
 			"/dev:/dev"\
 		]\
-  	},\
+  	}\
 }'
 LABEL authors='[\
     {\
@@ -65,7 +65,7 @@ LABEL tags='[\
     "navigation",\
     "short-baseline"\
 ]'
-LABEL readme='https://raw.githubusercontent.com/clydemcqueen/wl_ugps_external_extension/{tag}/README.md'
+LABEL readme='https://github.com/calka75/usbl_positions/{tag}/README.md'
 LABEL links='{\
     "website": "https://github.com/calka75/usbl_positions",\
     "support": "https://github.com/calka75/usbl_positions"\
